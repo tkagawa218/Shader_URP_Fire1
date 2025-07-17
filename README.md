@@ -2,6 +2,10 @@
 
 Unity Universal Render Pipeline (URP) に対応した「炎エフェクト」の Shader Graph 実装サンプルです。リアルタイム炎表現の基礎を学びたい方、Shader GraphからHLSLへの落とし込みを目指す中級者に向けて構成されています。
 
+<p align="center">
+  <img src="flameDemo.gif" alt="炎エフェクトデモ" width="480">
+</p>
+
 ## 🎯 このプロジェクトについて
 
 本プロジェクトは、以下の目的で制作されました：
@@ -36,11 +40,6 @@ Shader_URP_Fire1/
 2. Unity Hub から本プロジェクトを開く（URP テンプレートとして認識されます）  
 3. `Scenes/SampleScene.unity` を開いて動作確認  
 4. Shader Graph の `Fire1.shadergraph` を開いてノード構成を確認  
-
-## 🔧 デモ
-- 実行すると以下のような、炎が表示されます。
-
-![炎デモ](flameDemo.gif)
 
 ## 💡 技術ポイント
 
