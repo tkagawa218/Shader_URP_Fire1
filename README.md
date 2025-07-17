@@ -37,6 +37,11 @@ Shader_URP_Fire1/
 3. `Scenes/SampleScene.unity` を開いて動作確認  
 4. Shader Graph の `Fire1.shadergraph` を開いてノード構成を確認  
 
+## 🔧 デモ
+- 実行すると以下のような、炎が表示されます。
+
+![炎デモ](flameDemo.gif)
+
 ## 💡 技術ポイント
 
 - 2つの「Gradient Noise ノード」を作成し、それぞれが +Y 方向にスクロールするようにノードを接続します。  
