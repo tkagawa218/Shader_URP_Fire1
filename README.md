@@ -66,11 +66,10 @@ Shader_URP_Fire1/
 
 ![ShaderGraph全体](flame_graph.gif)
 
+
 ## 📜 ライセンス
 
-MIT License  
-自由にご利用ください（商用・改変OK）。  
-ご利用時にクレジットを記載いただけると嬉しいです！
+このプロジェクトは [MIT License](LICENSE) のもとで公開されています。
 
 ---
 
