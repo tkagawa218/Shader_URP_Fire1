@@ -41,15 +41,23 @@ Shader_URP_Fire1/
 
 - 2つの「Gradient Noise ノード」を作成し、それぞれが +Y 方向にスクロールするようにノードを接続します。  
   それぞれのスクロール速度は異なる値に設定します（速い方が細かいノイズになります）。
+  
 ![ShaderGraph全体](Fire_shaderGraph_1.png)
+
 - 2つのノイズを「Multiply ノード」で乗算合成します。  
 - 合成したノイズを「Step ノード」につなげて2値化します。  
 - GameObject に貼り付けた際に、四角形の境界が目立ってしまう問題を回避するため、周囲を消すマスクを使用します。  
   「Sample Texture 2D ノード」を使い、「Mask2 テクスチャ」をアサインします。  
+
 ![ShaderGraph全体](Fire_shaderGraph_2.png)
+
 - この「Mask2 ノード」と、2つのノイズを合成した「Multiply ノード」をさらに「Multiply ノード」で乗算し、「Step ノード」につなげます。  
 - Mask2 テクスチャは下から上へ暗くなるグラデーション構造になっているため、ノイズと合成することで「上に行くほど暗くなる」ノイズが生成されます。  
 - 最終的に「Step ノード」で2値化すると、炎が上にいくほど徐々にちぎれて消えていくような自然な表現になります。
+
+![ShaderGraph全体](Fire_shaderGraph_3.png)
+
+- ShaderGraph全体です。
 
 ![ShaderGraph全体](flame_graph.gif)
 
