@@ -74,5 +74,5 @@ Shader_URP_Fire1/
 ---
 
 👤 Author: [@tkagawa218](https://note.com/easy_snipe8792)  
-            [Mail]tkagawa218@gmail.com
+            [Mail](tkagawa218@gmail.com)
 🌐 note記事: [準備中]()
